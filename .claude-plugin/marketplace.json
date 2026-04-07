@@ -1,0 +1,10 @@
+{
+  "name": "dasfink",
+  "description": "Misha's Claude Code plugins",
+  "plugins": {
+    "dado": {
+      "path": "./plugins/dado",
+      "description": "Parametric woodworking CAD with OpenSCAD"
+    }
+  }
+}

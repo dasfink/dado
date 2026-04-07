@@ -1,0 +1,9 @@
+{
+  "name": "opencad",
+  "version": "0.1.0",
+  "description": "Parametric woodworking CAD with OpenSCAD — Claude generates SCAD code, renders previews via MCP, and exports STL/DXF for cabinets, loft beds, saunas, sheds, and more.",
+  "author": {
+    "name": "Misha"
+  },
+  "keywords": ["openscad", "woodworking", "cad", "parametric", "furniture", "construction"]
+}

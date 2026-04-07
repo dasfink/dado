@@ -1,0 +1,13 @@
+{
+  "PreToolUse": [
+    {
+      "matcher": "Write|Edit",
+      "hooks": [
+        {
+          "type": "prompt",
+          "prompt": "If the file being written/edited has a .scad extension, verify: (1) it includes <BOSL2/std.scad>, (2) it uses 'include' (not 'use') for materials.scad, (3) dimensions are in inches not mm, (4) no raw numbers for material thicknesses — use constants like MAPLE_PLY_THICK. If any of these are violated, output a brief warning starting with 'WARN:' describing the issue. If the file is not a .scad file or all checks pass, output nothing."
+        }
+      ]
+    }
+  ]
+}

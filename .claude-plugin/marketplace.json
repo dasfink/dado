@@ -1,10 +1,17 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "dasfink",
   "description": "Misha's Claude Code plugins",
-  "plugins": {
-    "dado": {
-      "path": "./plugins/dado",
-      "description": "Parametric woodworking CAD with OpenSCAD"
+  "owner": {
+    "name": "Misha",
+    "email": "misha@dasfink.com"
+  },
+  "plugins": [
+    {
+      "name": "dado",
+      "description": "Parametric woodworking CAD with OpenSCAD — generates SCAD models, renders previews, exports STL/DXF for cabinets, loft beds, saunas, sheds",
+      "source": "./plugins/dado",
+      "category": "development"
     }
-  }
+  ]
 }

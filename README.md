@@ -1,4 +1,4 @@
-# OpenCAD Plugin
+# Dado
 
 Parametric woodworking CAD plugin for Claude Code. Turns Claude into a woodworking design assistant using OpenSCAD.
 
@@ -39,7 +39,7 @@ Bundles the [openscad-mcp](https://github.com/quellant/openscad-mcp) server:
 ## Installation
 
 ```bash
-claude --plugin-dir /path/to/opencad-plugin
+claude --plugin-dir /path/to/dado
 ```
 
 Or install from marketplace once published.
